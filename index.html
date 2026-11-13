@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio das Previsões</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Desafio das Previsões</h1>
+        <p>Aprendendo a analisar e prever situações do cotidiano</p>
+    </header>
+
+    <main>
+        <section class="introducao">
+            <h2>Atividade de Modelagem</h2>
+            <p>
+                Foram escolhidas duas situações mais fáceis e duas
+                mais difíceis de prever, considerando a estabilidade
+                dos fenômenos e as informações necessárias.
+            </p>
+        </section>
+
+        <section>
+            <h2 class="facil">Situações mais fáceis</h2>
+
+            <div class="card">
+                <h3>1. Altura média dos estudantes daqui a um ano</h3>
+                <p><strong>Por que é mais fácil?</strong></p>
+                <p>
+                    A altura dos estudantes costuma aumentar
+                    gradualmente. Com dados atuais e informações
+                    sobre o crescimento, é possível estimar a média futura.
+                </p>
+                <p><strong>Estabilidade:</strong> Fenômeno relativamente estável.</p>
+                <p><strong>Informação necessária:</strong>
+                    Altura atual dos estudantes, idade e medidas
+                    registradas em anos anteriores.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>2. Tempo médio de deslocamento até a escola</h3>
+                <p><strong>Por que é mais fácil?</strong></p>
+                <p>
+                    Os horários e os caminhos utilizados pelos
+                    estudantes geralmente seguem uma rotina.
+                    Assim, é possível calcular uma média de deslocamento.
+                </p>
+                <p><strong>Estabilidade:</strong> Relativamente estável,
+                    embora possa mudar com o trânsito.</p>
+                <p><strong>Informação necessária:</strong>
+                    Horários de saída, distância percorrida e
+                    tempo de viagem dos estudantes.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="dificil">Situações mais difíceis</h2>
+
+            <div class="card">
+                <h3>3. Vídeo mais assistido da internet na próxima semana</h3>
+                <p><strong>Por que é mais difícil?</strong></p>
+                <p>
+                    A popularidade dos vídeos pode mudar rapidamente.
+                    Novas tendências, acontecimentos e publicações
+                    podem fazer um vídeo se tornar viral inesperadamente.
+                </p>
+                <p><strong>Estabilidade:</strong> Fenômeno muito volátil.</p>
+                <p><strong>Informação necessária:</strong>
+                    Número de visualizações, curtidas, compartilhamentos
+                    e tendências atuais das redes sociais.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>4. Preço de uma moeda estrangeira amanhã</h3>
+                <p><strong>Por que é mais difícil?</strong></p>
+                <p>
+                    O preço das moedas muda constantemente por causa
+                    da economia, das decisões políticas e dos
+                    acontecimentos internacionais.
+                </p>
+                <p><strong>Estabilidade:</strong> Fenômeno volátil.</p>
+                <p><strong>Informação necessária:</strong>
+                    Histórico da cotação, taxas de juros,
+                    inflação e notícias econômicas.
+                </p>
+            </div>
+        </section>
+
+        <section class="conclusao">
+            <h2>Conclusão</h2>
+            <p>
+                As previsões mais fáceis são aquelas que envolvem
+                fenômenos com comportamentos mais regulares e
+                informações que podem ser coletadas.
+            </p>
+            <p>
+                Já as previsões mais difíceis envolvem acontecimentos
+                que mudam rapidamente e dependem de muitos fatores
+                externos. Por isso, quanto mais instável for um
+                fenômeno, mais difícil será prever seu comportamento.
+            </p>
+        </section>
+
+        <section class="interacao">
+            <h2>Teste seus conhecimentos!</h2>
+            <p>Qual situação apresenta maior volatilidade?</p>
+
+            <button onclick="verificarResposta('altura')">
+                Altura dos estudantes
+            </button>
+
+            <button onclick="verificarResposta('video')">
+                Vídeo mais assistido
+            </button>
+
+            <p id="resultado"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Atividade de Modelagem e Previsões | 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
